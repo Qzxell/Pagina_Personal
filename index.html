@@ -4,28 +4,146 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>My Proyect Facherisimo</title>
+   <title>Document</title>
    <link rel="stylesheet" href="./index.css">
+   <link rel="stylesheet" href="./normalize.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/f5edf4f599.js" crossorigin="anonymous"></script>
 </head>
 <body>
-   <div>
-      <div>
-         <h1>Aprende a codificar ibservando datos</h1>
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro temporibus modi tempore amet numquam aut accusamus voluptatem possimus excepturi fugit perspiciatis ipsam voluptas voluptatum quos soluta, qui laboriosam non a.</p>
-      </div>
-      <div>
-         <div class="anuncio"></div>
-         <div class="formulario">
-            <form action="">
-               <input type="text" value="Primer nombre">
-               <input type="text" value="Apellido">
-               <input type="email" value="direccion de correo">
-               <input type="text" value="contraseña">
-               <input type="submit" value="reclama tu periodo de prueba gratis">
-            </form>
-            <p>Al hacer click, acepta nuestro  <a href="#">terminos y servicios</a></p>
+   <header>
+      <div class="contenedor">
+         <nav class="menu">
+            <a href="">Acerca de</a>
+            <a href="">contacto</a>
+            <a href="">trabajos</a>
+         </nav>
+
+         <div class="contenedor-texto">
+            <div class="texto">
+               <h1 class="nombre">Axel Rocca Cruz</h1>
+               <h2 class="profesion">Programador</h2>
+            </div>
          </div>
-      </div>
-   </div>
+      </div>    
+   </header>
+   <section class="main">
+      <section class="acerca-de">
+         <div class="contenedor">
+            <div class="foto">
+               <img src="./img/yo.jpeg" alt="Axel Rocca Cruz" width="115">
+            </div>
+            <div class="texto">
+               <h3 class="tituolo">acerca de</h3>
+               <p>Lorem ipsum dolor sit amet consectetur <span class="bold"> ap adipisicing elit. </span>Autem earum quam blanditiis exercitationem distinctio ea quibusdam sed! Illum facilis corporis enim alias. Modsi magnam quia mollitia, enim itaque libero vero.</p>
+            </div>
+         </div>
+      </section>
+      <section class="trabajos">
+         <div class="contenedor">
+            <h3 class="titulo">Trabajos</h3>
+            <div class="contenedor-trabajos">
+               <div class="trabajo">
+                  <div class="thumb">
+                     <img src="./img/obo.jpeg" alt="facherito" width="100px">
+                  </div>
+                  <div class="descripcion">
+                     <p class="nombre">Lorem ipsum</p>
+                     <p class="categoria">asdasd</p>
+                  </div>
+               </div>
+               <div class="trabajo">
+                  <div class="thumb">
+                     <img src="./img/obo.jpeg" alt="facherito" width="100px">
+                  </div>
+                  <div class="descripcion">
+                     <p class="nombre">Lorem ipsum</p>
+                     <p class="categoria">asdasd</p>
+                  </div>
+               </div>
+               <div class="trabajo">
+                  <div class="thumb">
+                     <img src="./img/obo.jpeg" alt="facherito" width="100px">
+                  </div>
+                  <div class="descripcion">
+                     <p class="nombre">Lorem ipsum</p>
+                     <p class="categoria">asdasd</p>
+                  </div>
+               </div>
+               <div class="trabajo">
+                  <div class="thumb">
+                     <img src="./img/obo.jpeg" alt="facherito" width="100px">
+                  </div>
+                  <div class="descripcion">
+                     <p class="nombre">Lorem ipsum</p>
+                     <p class="categoria">asdasd</p>
+                  </div>
+               </div>
+               <div class="trabajo">
+                  <div class="thumb">
+                     <img src="./img/obo.jpeg" alt="facherito" width="100px">
+                  </div>
+                  <div class="descripcion">
+                     <p class="nombre">Lorem ipsum</p>
+                     <p class="categoria">asdasd</p>
+                  </div>
+               </div>
+               <div class="trabajo">
+                  <div class="thumb">
+                     <img src="./img/obo.jpeg" alt="facherito" width="100px">
+                  </div>
+                  <div class="descripcion">
+                     <p class="nombre">Lorem ipsum</p>
+                     <p class="categoria">asdasd</p>
+                  </div>
+               </div>
+               <div class="trabajo">
+                  <div class="thumb">
+                     <img src="./img/obo.jpeg" alt="facherito" width="100px">
+                  </div>
+                  <div class="descripcion">
+                     <p class="nombre">Lorem ipsum</p>
+                     <p class="categoria">asdasd</p>
+                  </div>
+               </div>
+               <div class="trabajo">
+                  <div class="thumb">
+                     <img src="./img/obo.jpeg" alt="facherito" width="100px">
+                  </div>
+                  <div class="descripcion">
+                     <p class="nombre">Lorem ipsum</p>
+                     <p class="categoria">asdasd</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+   </section>
+
+   <footer>
+      <section class="contacto">
+         <section class="contenedor">
+            <h3 class="titulo">Contacto</h3>
+            <form action="" class="formulario">
+               <input type="text" name="nombre" placeholder="nombre" required>
+               <input type="email" name="correo" placeholder="correo" required>
+               <textarea name="mensaje" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
+               <input class="boton" type="submit">
+            </form>
+         </section>
+      </section>
+
+      <section class="redes-sociales">
+         <div class="contenedor">
+            <a href="" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="" class="git"><i class="fa-brands fa-github"></i></a>
+            <a href="" class="twiter"><i class="fa-brands fa-twitter"></i></a>
+         </div>
+      </section>
+   </footer>
 </body>
 </html>
